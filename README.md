@@ -1,6 +1,8 @@
 # ConceptDriftMOA
 Algorithms for MOA designed to cope with concept drift. The versions are not optimized and have some limitations, please review the header of each class.
 
+The original MOA software is necessary: https://github.com/Waikato/moa
+
 * IB3: Instance-Based Learning.
 * TWF: Time-Weighted Forgetting.
 * LWF: Locally-Weighted Forgetting.
