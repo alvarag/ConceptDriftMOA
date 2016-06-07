@@ -1,14 +1,20 @@
 # ConceptDriftMOA
-Algorithms for MOA designed to cope with concept drift. 
-*
-* 
-* 
-* 
+Algorithms for MOA designed to cope with concept drift. The versions are not optimized and have some limitations, please review the header of each class.
+
+* IB3: Instance-Based Learning.
+* TWF: Time-Weighted Forgetting.
+* LWF: Locally-Weighted Forgetting.
+* ANNCAD: Adaptive NN Classification Algorithm for data-streams.
+* AES: Data stream classification with artificial endocrine system.
+* PECS: Prediction Error Context Switching.
+* oi-GRLVQ: Online and incremental GRLVQ. 
 
 ## Citation policy
 The code was implemented by 
 
 ## Contributions
 Some of the algorithms has been adapted to MOA by means a wrapper, the original code is available here:
-*
-* 
+
+* SimC: https://www.dropbox.com/s/s2t2ogaki1x1n4w/Weka.rar?dl=0
+* SyncStream: https://github.com/kramerlab/SyncStream/
+* IBLStreams: https://www.uni-marburg.de/fb12/kebi/research/software/iblstreams?language_sync=1
