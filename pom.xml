@@ -1,0 +1,89 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <properties>
+    <maven.compiler.source>1.7</maven.compiler.source>
+    <maven.compiler.target>1.7</maven.compiler.target>
+  </properties>
+
+  <groupId>moa</groupId>
+  <artifactId>moa-cd-release</artifactId>
+  <version>2016.07</version>  <!-- adjust -->
+
+  <name>Plugin for MOA: Concept Drift Algorithms</name>
+  <description>
+  Plugin for Massive On-line Analysis environment for massive data mining.
+  </description>
+  <organization>
+    <name>University of Burgos, Burgos, Spain</name>
+    <url>http://wwww.ubu.es/advanced-data-mining-research-and-bioinformatics-learning-admirable</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>GNU General Public License 3.0</name>
+      <url>http://www.gnu.org/licenses/gpl-3.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+
+  <developers>
+    <developer>
+      <id>alvarag</id>
+      <name>Álvar Arnaiz-González</name>
+      <email>alvarag@ubu.es</email>
+    </developer>
+  </developers>
+
+  <dependencies>
+    <dependency>
+      <groupId>nz.ac.waikato.cms.moa</groupId>
+      <artifactId>moa</artifactId>
+      <version>2016.04</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/moa-2016.04.jar</systemPath>
+    </dependency>
+
+  <dependency>
+      <groupId>gov.nist.math</groupId>
+      <artifactId>jama</artifactId>
+      <version>1.0.3</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/jama-1.0.3.jar</systemPath>
+  </dependency>
+
+  <dependency>
+      <groupId>core.xxl</groupId>
+      <artifactId>xxl</artifactId>
+      <version>2.0</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/xxl-core-2.0.beta.jar</systemPath>
+  </dependency>
+  
+  <dependency>
+      <groupId>syncstream.kramerlab</groupId>
+      <artifactId>syncstream</artifactId>
+      <version>20160427</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/SyncStream-20160427.jar</systemPath>
+  </dependency>
+
+  <dependency>
+      <groupId>jnl</groupId>
+      <artifactId>JNL</artifactId>
+      <version>1.1</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/JNL.jar</systemPath>
+  </dependency>
+
+  <dependency>
+      <groupId>nz.ac.waikato.cms.weka</groupId>
+      <artifactId>weka-dev</artifactId>
+      <version>3.7.12</version>
+      <scope>system</scope>
+      <systemPath>${basedir}/lib/weka-dev-3.7.12.jar</systemPath>
+  </dependency>
+
+  </dependencies>
+
+</project>
+
